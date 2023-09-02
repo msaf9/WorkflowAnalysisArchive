@@ -1,0 +1,1 @@
+[{"filename": "bin/CMakeLists.txt", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -1,4 +1,4 @@\n-add_custom_target(copy-FileCheck\n+add_custom_target(copy-FileCheck ALL\n     COMMAND ${CMAKE_COMMAND} -E copy\n         \"${LLVM_LIBRARY_DIR}/../bin/FileCheck\"\n         \"${CMAKE_CURRENT_BINARY_DIR}/FileCheck\""}]

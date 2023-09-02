@@ -1,0 +1,1 @@
+[{"filename": "python/triton/language/core.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -709,6 +709,7 @@ def zeros(shape, dtype, _builder=None):\n     dtype = _constexpr_to_value(dtype)\n     return semantic.zeros(shape, dtype, _builder)\n \n+\n @builtin\n def fill(shape, value, dtype, _builder=None):\n     \"\"\""}]

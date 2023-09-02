@@ -1,0 +1,1 @@
+[{"filename": "python/triton/language/core.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -825,7 +825,6 @@ def atomic_cas(pointer, cmp, val, _builder=None):\n     return semantic.atomic_cas(pointer, cmp, val, _builder)\n \n \n-@builtin\n def _add_atomic_docstr(name):\n \n     def _decorator(func):"}]

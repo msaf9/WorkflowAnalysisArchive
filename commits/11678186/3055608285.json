@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/integration-tests.yml", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -10,7 +10,7 @@ jobs:\n \n   Integration-Tests:\n \n-    runs-on: self-hosted\n+    runs-on: [self-hosted, A10]\n \n     steps:\n "}]

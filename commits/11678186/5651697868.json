@@ -1,0 +1,1 @@
+[{"filename": "bin/CMakeLists.txt", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -50,7 +50,6 @@ llvm_update_compile_flags(triton-translate)\n          TritonGPUTransforms\n          TritonLLVMIR\n          TritonPTX\n-         TritonHSACO\n          ${dialect_libs}\n          ${conversion_libs}\n          # tests"}]

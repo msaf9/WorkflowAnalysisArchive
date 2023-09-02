@@ -1,0 +1,1 @@
+[{"filename": "python/triton/code_gen.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -20,6 +20,7 @@\n import triton._C.libtriton.triton as _triton\n from .tools.disasm import extract\n \n+\n def mangle_ty(type):\n     if type.is_ptr():\n         return 'P' + mangle_ty(type.element)"}]

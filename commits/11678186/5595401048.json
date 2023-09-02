@@ -1,0 +1,1 @@
+[{"filename": "test/Triton/combine.mlir", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -1,4 +1,3 @@\n-// RUN: triton-opt %s -split-input-file -canonicalize -triton-combine\n // RUN: triton-opt %s -split-input-file -canonicalize -triton-combine | FileCheck %s\n \n // CHECK-LABEL: @test_combine_dot_add_pattern"}]

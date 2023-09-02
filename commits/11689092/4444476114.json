@@ -1,0 +1,1 @@
+[{"filename": "python/setup.cfg", "status": "modified", "additions": 3, "deletions": 0, "changes": 3, "file_content_changes": "@@ -6,3 +6,6 @@ ignore = E501,E701,E731\n \n [flake8]\n ignore = E501,E701,E731\n+\n+[bdist_wheel]\n+build_number = 1"}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/ops/matmul.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -111,6 +111,7 @@ def _kernel(A, B, C, M, N, K,\n     else:\n         tl.atomic_add(C, acc, mask=mask)\n \n+\n class _matmul(torch.autograd.Function):\n     kernel = _kernel\n "}]

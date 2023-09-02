@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/integration-tests.yml", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -156,6 +156,7 @@ jobs:\n \n   Integration-Tests-Third-Party:\n     needs: Runner-Preparation\n+    if: false\n \n     runs-on: ${{ matrix.runner }}\n "}]

@@ -1,0 +1,1 @@
+[{"filename": "python/setup.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -7,7 +7,6 @@\n import subprocess\n import sys\n import tarfile\n-import tempfile\n import urllib.request\n from distutils.version import LooseVersion\n "}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/compiler.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -1316,7 +1316,6 @@ def default_cache_dir():\n     return os.path.join(os.environ[\"HOME\"], \".triton\", \"cache\")\n \n \n-\n class CacheManager:\n \n     def __init__(self, key):"}]

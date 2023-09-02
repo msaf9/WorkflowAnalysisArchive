@@ -1,0 +1,1 @@
+[{"filename": "python/tutorials/06-fused-attention.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -4,7 +4,6 @@\n import triton\n import triton.language as tl\n \n-\n # fmt: off\n \n @triton.jit"}]

@@ -1,0 +1,1 @@
+[{"filename": "lib/Dialect/TritonGPU/Transforms/CMakeLists.txt", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -8,7 +8,6 @@ add_mlir_dialect_library(TritonGPUTransforms\n   Combine.cpp\n   Pipeline.cpp\n   Swizzle.cpp\n-  Verifier.cpp\n   TritonGPUConversion.cpp\n \n   DEPENDS"}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/ops/flash_attention.py", "status": "modified", "additions": 0, "deletions": 3, "changes": 3, "file_content_changes": "@@ -191,9 +191,6 @@ def _bwd_kernel(\n         tl.store(dk_ptrs, dk)\n \n \n-empty = torch.empty(128, device=\"cuda\")\n-\n-\n class _attention(torch.autograd.Function):\n \n     @staticmethod"}]

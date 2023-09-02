@@ -1,0 +1,1 @@
+[{"filename": "python/triton/language/__init__.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -131,6 +131,7 @@\n     \"int64\",\n     \"int8\",\n     \"ir\",\n+    \"libdevice\",\n     \"load\",\n     \"log\",\n     \"max\","}]

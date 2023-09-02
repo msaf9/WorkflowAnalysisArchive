@@ -1,0 +1,1 @@
+[{"filename": "python/setup.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -294,7 +294,6 @@ def build_extension(self, ext):\n             \"numpy\",\n             \"pytest\",\n             \"scipy>=1.7.1\",\n-            \"torch\",\n         ],\n         \"tutorials\": [\n             \"matplotlib\","}]

@@ -1,0 +1,1 @@
+[{"filename": "python/setup.py", "status": "modified", "additions": 2, "deletions": 2, "changes": 4, "file_content_changes": "@@ -1,5 +1,5 @@\n-import distutils\n-import distutils.spawn\n+# import distutils\n+# import distutils.spawn\n import os\n import platform\n import re"}]

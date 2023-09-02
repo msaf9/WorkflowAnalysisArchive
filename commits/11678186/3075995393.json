@@ -1,0 +1,1 @@
+[{"filename": ".gitignore", "status": "modified", "additions": 3, "deletions": 0, "changes": 3, "file_content_changes": "@@ -7,3 +7,6 @@ python/build/\n python/triton.egg-info/\n python/triton/_C/libtriton.pyd\n python/triton/_C/libtriton.so\n+\n+.vscode\n+.vs\n\\ No newline at end of file"}]

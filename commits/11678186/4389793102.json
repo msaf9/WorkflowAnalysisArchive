@@ -1,0 +1,1 @@
+[{"filename": "python/triton/language/__init__.py", "status": "modified", "additions": 2, "deletions": 1, "changes": 3, "file_content_changes": "@@ -131,7 +131,8 @@\n     \"float16\",\n     \"float32\",\n     \"float64\",\n-    \"float8\",\n+    \"float8e4\",\n+    \"float8e5\",\n     \"full\",\n     \"function_type\",\n     \"int1\","}]

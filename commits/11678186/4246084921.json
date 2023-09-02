@@ -1,0 +1,1 @@
+[{"filename": "python/triton/compiler.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -981,6 +981,7 @@ def ttir_to_ttgir(mod, num_warps):\n     pm.run(mod)\n     return mod\n \n+\n def optimize_ttgir(mod, num_stages, compute_capability):\n     pm = _triton.ir.pass_manager(mod.context)\n     pm.enable_debug()"}]

@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/documentation.yml", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -13,6 +13,7 @@ jobs:\n         uses: actions/checkout@v2\n         with:\n           token: ${{ secrets.CI_PAT }}\n+          fetch-depth: 0\n \n       - name: Clear docs\n         run: |"}]

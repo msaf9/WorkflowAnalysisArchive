@@ -1,0 +1,1 @@
+[{"filename": "python/tutorials/03-matrix-multiplication.py", "status": "modified", "additions": 0, "deletions": 2, "changes": 2, "file_content_changes": "@@ -306,8 +306,6 @@ def matmul(a, b, activation=None):\n else:\n     print(\"\u274c Triton and Torch differ\")\n \n-print(matmul_kernel.cache_key)\n-exit()\n # %%\n # Benchmark\n # --------------"}]

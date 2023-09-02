@@ -1,0 +1,1 @@
+[{"filename": "python/test/unit/runtime/test_driver.py", "status": "added", "additions": 8, "deletions": 0, "changes": 8, "file_content_changes": "@@ -0,0 +1,8 @@\n+import sys\n+\n+import triton\n+\n+\n+def test_is_lazy():\n+    mod = sys.modules[triton.runtime.driver.__module__]\n+    assert isinstance(triton.runtime.driver, getattr(mod, \"LazyProxy\"))"}]

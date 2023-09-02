@@ -1,0 +1,1 @@
+[{"filename": "python/setup.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -222,6 +222,7 @@ def build_extension(self, ext):\n     install_requires=[\n         \"cmake>=3.20\",\n         \"filelock\",\n+        \"torch\",\n         \"lit\",\n     ],\n     package_data={\"triton\": [\"third_party/**/*\"]},"}]

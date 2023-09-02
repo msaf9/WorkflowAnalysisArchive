@@ -1,0 +1,1 @@
+[{"filename": ".gitignore", "status": "modified", "additions": 7, "deletions": 1, "changes": 8, "file_content_changes": "@@ -8,9 +8,15 @@ python/triton/_C/libtriton.pyd\n python/triton/_C/libtriton.so\n \n # Python caches\n-__pycache__\n+__pycache__/\n+*.py[cod]\n .pytest_cache\n \n+# Environments\n+.venv\n+venv/\n+venv.bak/\n+\n # VS Code project files\n .vscode\n .vs"}]

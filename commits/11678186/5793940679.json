@@ -1,0 +1,1 @@
+[{"filename": ".gitignore", "status": "modified", "additions": 3, "deletions": 0, "changes": 3, "file_content_changes": "@@ -24,3 +24,6 @@ venv.bak/\n # JetBrains project files\n .idea\n cmake-build-*\n+\n+# Third-party binaries\n+ptxas"}]

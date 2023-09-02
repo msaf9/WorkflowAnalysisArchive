@@ -1,0 +1,1 @@
+[{"filename": "include/triton/Tools/Sys/GetPlatform.hpp", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -20,7 +20,7 @@\n  */\n \n #ifndef TDL_TOOLS_SYS_GETPLATFORM_HPP\n-#define TDL_TOOLS_SYS__GETPLATFORM_HPP\n+#define TDL_TOOLS_SYS_GETPLATFORM_HPP\n \n #include <algorithm>\n #include <cstdlib>"}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/language/standard.py", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -32,7 +32,7 @@ def sigmoid(x):\n def softmax(x, ieee_rounding=False):\n     z = x - max(x, 0)\n     num = core.exp(z)\n-    den = core.sum(num, 0)\n+    den = sum(num, 0)\n     return core.fdiv(num, den, ieee_rounding)\n \n "}]

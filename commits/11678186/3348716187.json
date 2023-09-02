@@ -1,0 +1,1 @@
+[{"filename": "python/setup.py", "status": "modified", "additions": 0, "deletions": 2, "changes": 2, "file_content_changes": "@@ -1,12 +1,10 @@\n import distutils\n-import itertools\n import os\n import platform\n import re\n import shutil\n import subprocess\n import sys\n-import sysconfig\n import tarfile\n import tempfile\n import urllib.request"}]

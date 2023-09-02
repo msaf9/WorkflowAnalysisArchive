@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/integration-tests.yml", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -85,7 +85,7 @@ jobs:\n         if: ${{ matrix.runner[0] == 'self-hosted' }}\n         run: |\n           cd python/tests\n-          pytest -vs .\n+          pytest\n \n       - name: Run CXX unittests\n         run: |"}]

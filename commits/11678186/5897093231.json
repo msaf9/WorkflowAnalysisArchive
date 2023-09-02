@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/compare-artifacts.yml", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -1,5 +1,6 @@\n name: Compare Artifacts\n on:\n+  workflow_dispatch:\n   workflow_run:\n     workflows:\n       - Integration Tests"}]

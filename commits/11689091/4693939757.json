@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/documentation.yml", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -6,7 +6,7 @@ on:\n \n jobs:\n   Build-Documentation:\n-    runs-on: [self-hosted, V100]\n+    runs-on: [self-hosted, A100]\n \n     steps:\n       - name: Checkout branch"}]

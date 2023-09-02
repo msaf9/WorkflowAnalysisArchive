@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/integration-tests.yml", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -4,7 +4,7 @@ on:\n   workflow_dispatch:\n   pull_request:\n     branches:\n-      - master\n+      - main\n       - triton-mlir\n \n jobs:"}]

@@ -1,0 +1,1 @@
+[{"filename": "lib/Dialect/TritonGPU/Transforms/RemoveLayoutConversions.cpp", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -22,7 +22,6 @@\n \n using namespace mlir;\n namespace {\n-#include \"TritonGPUCombine.inc\"\n using triton::DotOp;\n using triton::gpu::ConvertLayoutOp;\n using triton::gpu::DotOperandEncodingAttr;"}]

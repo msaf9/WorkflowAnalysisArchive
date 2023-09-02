@@ -1,0 +1,1 @@
+[{"filename": "python/triton/__init__.py", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -1,5 +1,5 @@\n \"\"\"isort:skip_file\"\"\"\n-__version__ = '2.0.0'\n+__version__ = '2.1.0'\n \n # ---------------------------------------\n # Note: import order is significant here."}]

@@ -1,0 +1,1 @@
+[{"filename": "test/TritonGPU/combine.mlir", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -1203,7 +1203,7 @@ module attributes {\"triton_gpu.num-warps\" = 4 : i32} {\n   }\n }\n \n-// ----- \n+// -----\n \n // Check if MoveConvertOutOfLoop hangs because of adding additional conversions\n // CHECK-NOT: triton_gpu.convert_layout"}]

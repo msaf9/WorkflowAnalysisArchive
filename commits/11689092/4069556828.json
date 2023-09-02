@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/wheels.yml", "status": "modified", "additions": 4, "deletions": 0, "changes": 4, "file_content_changes": "@@ -12,6 +12,10 @@ jobs:\n \n     steps:\n \n+      - name: Install dependencies\n+        run: |\n+          pip install cibuildwheel\n+\n       - name: Checkout\n         uses: actions/checkout@v2\n "}]

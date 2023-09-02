@@ -1,0 +1,1 @@
+[{"filename": "python/test/kernel_comparison/kernels.yml", "status": "modified", "additions": 2, "deletions": 0, "changes": 2, "file_content_changes": "@@ -1,4 +1,6 @@\n name_and_extension:\n+  - name: abc\n+    extension: ptx\n   - name: _kernel_0d1d2d34567c89c1011c\n     extension: ptx\n   - name: _kernel_0d1d2d3d4d5d6d7c8d9c10d11c"}]

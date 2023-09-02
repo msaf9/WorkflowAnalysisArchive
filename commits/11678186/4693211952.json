@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/documentation.yml", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -6,7 +6,6 @@ on:\n \n jobs:\n   Build-Documentation:\n-    # TODO: It's temporarily built on A100 only because tutorials fail on V100\n     runs-on: [self-hosted, V100]\n \n     steps:"}]

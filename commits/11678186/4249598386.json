@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/scripts/check_perf.py", "status": "modified", "additions": 2, "deletions": 0, "changes": 2, "file_content_changes": "@@ -46,3 +46,5 @@ def main():\n     baseline = parse_output(args.baseline)\n     new = parse_output(args.new)\n     compare(baseline, new, args.threshold)\n+\n+main()"}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/runtime/driver/hip.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -10,6 +10,7 @@ def get_hip_utils():\n     global _hip_utils\n     if _hip_utils is None:\n         _hip_utils = HIPUtils()\n+    return _hip_utils\n \n \n _hip_utils = None"}]

@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/documentation.yml", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -22,6 +22,7 @@ jobs:\n       - name: Build docs\n         run: |\n           cd docs\n+          pip3 install sphinx-multiversion\n           sphinx-multiversion . _build/html/\n \n       - name: Update docs"}]

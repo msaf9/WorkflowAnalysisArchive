@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/torchinductor/scripts/install_torchinductor.sh", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -4,7 +4,6 @@\n ROOT=\"$(pwd)\"\n \n # torchinductor venv \n-touch /opt/test\n python3 -m venv /opt/torchinductor_venv\n # shellcheck source=/dev/null\n source /opt/torchinductor_venv/bin/activate"}]

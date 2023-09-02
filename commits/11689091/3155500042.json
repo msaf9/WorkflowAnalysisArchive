@@ -1,0 +1,1 @@
+[{"filename": "python/triton/testing.py", "status": "modified", "additions": 0, "deletions": 1, "changes": 1, "file_content_changes": "@@ -102,7 +102,6 @@ def allclose(x, y, tol=1e-2):\n     diff = abs(x - y)\n     x_max = torch.max(x)\n     y_max = torch.max(y)\n-    tol = 1e-2\n     err = torch.max(diff) / torch.max(x_max, y_max)\n     return err <= tol\n "}]

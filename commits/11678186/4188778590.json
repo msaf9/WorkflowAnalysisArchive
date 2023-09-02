@@ -1,0 +1,1 @@
+[{"filename": "python/triton/compiler.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -966,6 +966,7 @@ def optimize_triton_ir(mod):\n     pm.add_canonicalizer_pass()\n     pm.add_cse_pass()\n     pm.add_licm_pass()\n+    pm.add_symbol_dce_pass()\n     pm.run(mod)\n     return mod\n "}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/runtime/__init__.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -16,4 +16,5 @@\n     \"TensorWrapper\",\n     \"OutOfResources\",\n     \"MockTensor\",\n+    \"Autotuner\",\n ]"}]

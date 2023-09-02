@@ -1,0 +1,1 @@
+[{"filename": "python/setup.cfg", "status": "modified", "additions": 1, "deletions": 1, "changes": 2, "file_content_changes": "@@ -5,4 +5,4 @@ description_file = README.md\n ignore = E501,E701,E731\n \n [flake8]\n-ignore = E501,E701,E731\n\\ No newline at end of file\n+ignore = E501,E701,E731"}]

@@ -1,0 +1,1 @@
+[{"filename": "python/triton/tools/build_extern.py", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -67,6 +67,7 @@ def to_unsigned(type_str):\n     else:\n         return type_str\n \n+\n class ExternLibrary(ABC):\n     def __init__(self, name: str, path: str, format: bool = True, grouping: bool = True) -> None:\n         '''"}]

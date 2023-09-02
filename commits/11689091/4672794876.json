@@ -1,0 +1,1 @@
+[{"filename": ".github/workflows/documentation.yml", "status": "modified", "additions": 1, "deletions": 0, "changes": 1, "file_content_changes": "@@ -28,6 +28,7 @@ jobs:\n       - name: Build docs\n         run: |\n           git fetch origin main\n+          git checkout main\n           cd docs\n           sphinx-multiversion . _build/html/\n "}]

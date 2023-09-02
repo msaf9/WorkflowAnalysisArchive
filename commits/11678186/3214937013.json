@@ -1,0 +1,1 @@
+[{"filename": "CMakeLists.txt", "status": "modified", "additions": 2, "deletions": 0, "changes": 2, "file_content_changes": "@@ -3,6 +3,8 @@ include(ExternalProject)\n \n set(CMAKE_CXX_STANDARD 17)\n \n+set(CMAKE_INCLUDE_CURRENT_DIR ON)\n+\n if(NOT TRITON_LLVM_BUILD_DIR)\n     set(TRITON_LLVM_BUILD_DIR ${CMAKE_BINARY_DIR})\n endif()"}]
